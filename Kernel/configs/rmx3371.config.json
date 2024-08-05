@@ -63,7 +63,7 @@
       "branch": "main"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": false
   }
 ]
