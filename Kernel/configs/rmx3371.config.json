@@ -57,7 +57,7 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true
+      "release": true,
       "custom": {
       "repo": "https://github.com/ryukftw/AnyKernel3.git",
         "branch": "main"
