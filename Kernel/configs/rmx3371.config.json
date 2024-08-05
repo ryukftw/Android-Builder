@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Mi6X",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "perf",
+      "repo": "https://github.com/ryukftw/android_kernel_realme_sm8250.git",
+      "branch": "perf",
+      "device": "RMX3371",
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "toolchains": [
       {
@@ -58,6 +58,9 @@
     "AnyKernel3": {
       "use": true,
       "release": true
+      "custom": {
+      "repo": "https://github.com/ryukftw/AnyKernel3.git",
+        "branch": "main"
     },
     "enableKernelSU": true,
     "enableLXC": false
