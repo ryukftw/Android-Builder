@@ -60,7 +60,8 @@
       "release": true,
       "custom": {
       "repo": "https://github.com/ryukftw/AnyKernel3.git",
-        "branch": "main"
+      "branch": "main"
+      }
     },
     "enableKernelSU": true,
     "enableLXC": false
