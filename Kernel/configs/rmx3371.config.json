@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "perf",
-      "repo": "https://github.com/ryukftw/android_kernel_realme_sm8250.git",
-      "branch": "perf",
+      "name": "Kraken-AOSP-CAF",
+      "repo": "https://github.com/ryukftw/kernel_realme_sm8250.git",
+      "branch": "kraken-AOSP",
       "device": "RMX3371",
-      "defconfig": "vendor/kona-perf_defconfig"
+      "defconfig": "vendor/sm8250_defconfig"
     },
     "toolchains": [
       {
