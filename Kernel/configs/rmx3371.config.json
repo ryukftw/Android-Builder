@@ -3,14 +3,14 @@
     "kernelSource": {
       "name": "Kraken-AOSP-CAF",
       "repo": "https://github.com/ryukftw/kernel_realme_sm8250.git",
-      "branch": "kraken-AOSP",
+      "branch": "kraken-old",
       "device": "RMX3371",
       "defconfig": "vendor/sm8250_defconfig"
     },
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
+        "repo": "https://gitlab.com/ryukftw/clang.git",
+        "branch": "thirteen",
         "name": "clang",
         "binaryEnv": [
           "bin"
