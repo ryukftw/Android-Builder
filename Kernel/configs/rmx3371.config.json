@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Kraken-AOSP-CAF",
-      "repo": "https://github.com/ryukftw/kernel_realme_sm8250.git",
-      "branch": "kraken-old",
+      "name": "phoeniX",
+      "repo": "https://github.com/ryukftw/kernel_realme_rmx3371.git",
+      "branch": "lineage-21",
       "device": "RMX3371",
-      "defconfig": "vendor/sm8250_defconfig"
+      "defconfig": "vendor/kona-perf-defconfig"
     },
     "toolchains": [
       {
@@ -63,7 +63,7 @@
       "branch": "main"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": false
   }
 ]
