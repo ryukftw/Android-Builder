@@ -5,7 +5,7 @@
       "repo": "https://github.com/ryukftw/kernel_realme_rmx3371.git",
       "branch": "lineage-21",
       "device": "RMX3371",
-      "defconfig": "vendor/kona-perf-defconfig"
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "toolchains": [
       {
